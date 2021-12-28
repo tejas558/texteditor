@@ -3,10 +3,10 @@ import sys
 from tkinter import * 
 
 root=Tk()
-root.geometry("350x250")
+root.geometry("500x500")
 root.title("Text Editor")
-root.minsize(height=250, width=350)
-root.maxsize(height=250, width=350)
+root.minsize(height=500, width=500)
+root.maxsize(height=500, width=500)
 
 scrollbar = Scrollbar(root)
 scrollbar.pack(side=RIGHT, fill=Y)
